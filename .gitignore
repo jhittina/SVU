@@ -128,6 +128,21 @@ dist
 # pnpm
 .pnpm-store
 
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vite build output
+FrontEnd/dist/
+
+# Backend logs
+BackEnd/src/logs/
+BackEnd/src/loggger-file/
+
 # yarn v3
 .pnp.*
 .yarn/*
